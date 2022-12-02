@@ -1,0 +1,194 @@
+body{
+    display: grid;
+    grid-template-columns: ;
+    grid-auto-rows: ;
+    background-color: white;
+    font-family: Comic Sans MS;
+}
+
+.text{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    width: 12em;
+    display: flex;
+    flex-wrap: wrap;
+    grid-column: ;
+    grid-row: ;
+    grid-row-end: ;
+    font-size: 75px;
+    text-align: center;
+    color: rgb(250, 131, 203);
+    text-shadow: 1px 1px 5px rgb(0, 0, 0), 0 0 10px rgb(95, 0, 100), 0 0 7.5px rgb(51, 0, 50);
+    padding: 10px;
+    border: ;
+    margin: 30px;
+}
+
+.instructions{
+    width: 12em;
+    height: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: ;
+    grid-row: ;
+    font-size: 60px;
+    text-align: center;
+    color: rgb(250, 131, 203);
+    text-shadow: 1px 1px 5px rgb(0, 0, 0), 0 0 10px rgb(95, 0, 100), 0 0 7.5px rgb(51, 0, 50);
+    padding: 60px 10px 10px 130px;
+    margin: 0px 100px 20px 100px;
+    background-image: url("comic.png");
+    background-repeat: no-repeat;
+    background-size: 1000px 700px;
+}
+
+.navbar-1{
+    width: 9em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    grid-column: ;
+    grid-row: ;
+    padding: 5px;
+    border: 5px solid black;
+    margin: 30px 5em 5em 5em;
+    background-image: url("navbar.jfif");
+    font-size: 100px;
+}
+
+.b-nav{
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    width: 120px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: 10px;
+    background-color: white;
+    line-height: 120px;
+    text-decoration: none;
+    color: rgb(250, 131, 203);
+    text-shadow: 1px 1px 5px black, 0 0 10px blue, 0 0 7.5px darkblue;
+}
+
+.a-body{
+    display: grid;
+    grid-template-columns: ;
+    grid-template-rows: ;
+};
+
+.a-photo{
+    grid-column: ;
+    grid-row: ;
+}
+
+.ant-container{
+    grid-column: ;
+    grid-row: ;
+}
+
+.ant-photo{
+
+}
+
+.ant-text{
+
+}
+
+.apple-container{
+    grid-column: ;
+    grid-row: ;
+}
+
+.apple-photo{
+
+}
+
+.apple-text{
+
+}
+
+.airplane-container{
+    grid-column: ;
+    grid-row: ;
+}
+
+.airplane-photo{
+
+}
+
+.airplane-text{
+
+}
+
+.arrow-container{
+    grid-column: ;
+    grid-row: ;
+}
+
+.arrow-photo{
+
+}
+
+.arrow-text{
+
+}
+
+.acorn-container{
+    grid-column: ;
+    grid-row: ;
+}
+
+.acorn-photo{
+
+}
+
+.acorn-text{
+
+}
+
+.navbar-1-a{
+    display: flex;
+    justify-content: ;
+    align-items: center;
+    grid-column: ;
+    grid-row: ;
+    padding: 5px;
+    border: 5px solid black;
+    margin: 30px;
+    background-image: url("navbar.jfif");
+    font-size: 100px;
+}
+
+.navbar-2-a{
+    display: flex;
+    justify-content: ;
+    align-items: center;
+    grid-column: ;
+    grid-row: ;
+    padding: 5px;
+    border: 5px solid black;
+    margin: 30px;
+    background-image: url("navbar.jfif");
+    font-size: 100px;
+}
+
+.prev{
+    background-color: red;
+}
+
+.home{
+
+}
+
+.next{
+    background-color: red;
+}

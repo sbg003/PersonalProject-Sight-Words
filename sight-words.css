@@ -1,0 +1,67 @@
+body{
+    display: grid;
+    grid-template-columns: 20fr 80fr;
+    grid-auto-rows: minmax(auto, auto);
+    background-color: white;
+    font-family: Comic Sans MS;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-column: 1;
+    grid-row: 1 / 2;
+    padding: 5px;
+    border: 5px solid black;
+    margin: 30px;
+    background-image: url("navbar.jfif");
+    font-size: 100px;
+
+}
+
+.b-nav{
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 5px black, 0 0 10px blue, 0 0 7.5px darkblue;
+}
+
+.text{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    grid-column: 2;
+    grid-row: 1;
+    grid-row-end: 1;
+    font-size: 75px;
+    text-align: center;
+    color: rgb(250, 131, 203);
+    text-shadow: 1px 1px 5px rgb(0, 0, 0), 0 0 10px rgb(95, 0, 100), 0 0 7.5px rgb(51, 0, 50);
+    padding: 10px;
+    border: ;
+    margin: 30px;
+}
+
+.instructions{
+    width: 1000px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    grid-column: 2;
+    grid-row: 2;
+    line-height: 110px;
+    font-size: 60px;
+    text-align: center;
+    color: rgb(250, 131, 203);
+    text-shadow: 1px 1px 5px rgb(0, 0, 0), 0 0 10px rgb(95, 0, 100), 0 0 7.5px rgb(51, 0, 50);
+    padding: 10px;
+    margin: 0px 100px 200px 100px;
+    background-image: url("comic.png");
+    background-repeat: no-repeat;
+    background-size: 1000px 700px;
+}
