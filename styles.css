@@ -84,112 +84,189 @@ h1{
     display: grid;
     grid-template-columns: ;
     grid-template-rows: ;
-};
+    background-color: white;
+    font-family: Comic Sans MS;
+}
 
-.a-photo{
+.aphoto{
+    height: 150px;
+    width: 150px;
+    margin: 0em;
     grid-column: ;
     grid-row: ;
+}
+
+.content-container{
+    width: 16em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-top: 30px;
+    margin-left: 5em;
 }
 
 .ant-container{
-    grid-column: ;
-    grid-row: ;
+    width: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    grid-column: 1;
+    grid-row: 1;
+    margin: 30px;
 }
 
 .ant-photo{
-
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
 }
 
 .ant-text{
-
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
 }
 
 .apple-container{
-    grid-column: ;
-    grid-row: ;
+    width: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    grid-column: 3;
+    grid-row: 1;
+    margin: 30px;
 }
 
 .apple-photo{
-
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
 }
 
 .apple-text{
-
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
 }
 
 .airplane-container{
-    grid-column: ;
-    grid-row: ;
+    width: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    grid-column: 2;
+    grid-row: 2;
+    margin: 30px;
 }
 
 .airplane-photo{
-
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
 }
 
 .airplane-text{
-
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
 }
 
 .arrow-container{
-    grid-column: ;
-    grid-row: ;
+    width: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    grid-column: 1;
+    grid-row: 3;
+    margin: 30px;
 }
 
 .arrow-photo{
-
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
 }
 
 .arrow-text{
-
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
 }
 
 .acorn-container{
-    grid-column: ;
-    grid-row: ;
+    width: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    grid-column: 3;
+    grid-row: 3;
+    margin: 30px;
 }
 
 .acorn-photo{
-
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
 }
 
 .acorn-text{
-
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
 }
 
-.navbar-1-a{
+.button-container{
+    width: 16em;
     display: flex;
-    justify-content: ;
+    justify-content: center;
     align-items: center;
-    grid-column: ;
-    grid-row: ;
-    padding: 5px;
-    border: 5px solid black;
-    margin: 30px;
-    background-image: url("navbar.jfif");
-    font-size: 100px;
-}
-
-.navbar-2-a{
-    display: flex;
-    justify-content: ;
-    align-items: center;
-    grid-column: ;
-    grid-row: ;
-    padding: 5px;
-    border: 5px solid black;
-    margin: 30px;
-    background-image: url("navbar.jfif");
-    font-size: 100px;
+    margin: 0em 3em 0em 10em;
 }
 
 .prev{
-    background-color: red;
+    background-color: rgb(250, 131, 203);
+    font-size: 20px;
+    font-weight: bold;
+    color: darkblue;
+    padding: 15px;
+    border: ;
+    border-radius: 20%;
+    margin: 1em;
 }
 
 .home{
-
+    background-color: rgb(250, 131, 203);
+    font-size: 20px;
+    font-weight: bold;
+    color: darkblue;
+    padding: 15px;
+    border: ;
+    border-radius: 20%;
+    margin: 1em;
 }
 
 .next{
-    background-color: red;
+    background-color: rgb(250, 131, 203);
+    font-size: 20px;
+    font-weight: bold;
+    color: darkblue;
+    padding: 15px;
+    border: ;
+    border-radius: 20%;
+    margin: 1em;
 }
